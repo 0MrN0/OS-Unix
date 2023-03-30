@@ -4,5 +4,5 @@ if __name__ == '__main__':
     to_write = bytearray(
         [1 if i in ones else 0 for i in range(file_size)]
         )
-    with open('A', mode='wb') as file:
+    with open('build/A', mode='wb') as file:
         file.write(to_write)
