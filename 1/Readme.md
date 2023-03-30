@@ -3,7 +3,7 @@
 
 Запуск 
 ```bash
-./runme.sh
+./runme.sh > result.txt
 ```
 
 Очистить build-директорию:
